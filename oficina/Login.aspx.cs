@@ -18,7 +18,7 @@ namespace oficina
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings[ConnectionString].ConnectionString);
+            Response.Redirect("Home.aspx");   
         }
 
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)

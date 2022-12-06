@@ -55,3 +55,8 @@ text-align: center;
 .msgErro{
     color:red;
 }
+
+.tabela-home {
+    margin: auto;
+    margin-top: 300px;
+}
