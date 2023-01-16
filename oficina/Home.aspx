@@ -11,17 +11,17 @@
 <body>
     <form id="form1" runat="server">
         
-        <table class="tabela-home">
-    <tr>
-        <td>  
-         <a href="Mecanicos.aspx" class="button-37">Mecânicos</a>
+   <table class="tabela-home">
+    <tr style="margin-left:auto">
+        <td>
+            <asp:Button ID="Button1" runat="server" Text="Mecânicos" OnClick="Button1_Click" />
         </td>
-        <td style="padding-left:10px">
-            <a href="Clientes.aspx" class="button-37">Clientes</a
+         <td>
+            <asp:Button ID="Button2" runat="server" Text="Clientes" OnClick="Button2_Click" />
         </td>
-        <td style="padding-left:10px">
-                <a href="Veiculos.aspx" class="button-37">Veículos</a
-            </td>
+         <td>
+            <asp:Button ID="Button3" runat="server" Text="Veículos" OnClick="Button3_Click" />
+        </td>
     </tr>
 </table>
         
